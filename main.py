@@ -13,30 +13,32 @@ opts_necrosis_tumoral=["normal"]
 ask_expert(bn="irregular",
            arq="ductos rudimentarios,conglomerados de celulas,monomorfa",
            canibalismo="presente")
+print("--------------")
 ask_expert(n="mitosis en estallido",nc="aumentado",arq="lagos de mucinas")
+print("--------------")
 ask_expert(n="mitosis en estallido,hipercromaticos,irregulares,amoldamiento",
            c="vacuolado,pleomorfismo,rosado",
            canibalismo="presente",
            bn="irregular",
            arq="ductos rudimentarios")
-
-ask_expert(n="mitosis en estallido,hipercromaticos,irregulares,amoldamiento",
-           c="vacuolado,pleomorfismo",
-           nc="normal",
-           canibalismo="ausente",
-           bn="bien definido",
-           arq="ductos rudimentarios, celulas fusocelulares")
+print("--------------")
 ask_expert(n="hipercromaticos,irregulares,amoldamiento",
            c="pleomorfismo,rosado",
            nc="aumentado",
            canibalismo="presente",
            bn="mal definido",
            arq="papila con microcalcificacion")
+print("--------------")
 ask_expert(canibalismo="ausente",bn="bien definido",necro="normal")
-
+print("--------------")
 ask_expert(n="mitosis en estallido,hipercromaticos,irregulares,amoldamiento",
                                c="pleomorfismo",
                                nc="aumentado",
                                canibalismo="presente",
                                bn="irregular",
                                arq="celulas fusocelulares")
+print("--------------")
+ask_expert(bn="irregular")
+print("--------------")
+ask_expert(bn="bien definido",
+			canibalismo="presente", nc="normal")
